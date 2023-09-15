@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App x2</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">
+        <h1>Weather Tracker</h1>
+      </div>
+
+      <div class="search">
+        <input class="input" type="text" placeholder="Search by Place" />
+      </div>
+
+      <div id="countryName">
+        <h1 class="countryName"></h1>
+      </div>
+
+      <div class="temp"></div>
+
+      <div class="date-time"></div>
+
+      <div class="humidity"></div>
+
+      <div class="wind"></div>
+      <div class="windDirection"></div>
+      <div class="uv"></div>
+
+      <div class="condition"></div>
+    </div>
+
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p id="uvMessage"></p>
+      </div>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
